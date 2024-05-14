@@ -1,6 +1,5 @@
 import * as core from '@actions/core'
-import {getOctokit} from '@actions/github'
-import {context} from '@actions/github'
+import {getOctokit, context} from '@actions/github'
 
 type Format = 'space-delimited' | 'csv' | 'json'
 type FileStatus = 'added' | 'modified' | 'removed' | 'renamed'
